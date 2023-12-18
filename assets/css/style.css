@@ -53,10 +53,23 @@ footer {
     letter-spacing: 4px;
     font-size: 110%;
     list-style-type: none;
+    width:inherit;
+    background-color: #ffffff;
 }
 #menu li {
-    margin-bottom 1em;
-}
+    margin-bottom: 1em;
+   }
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/*navbar styling */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
