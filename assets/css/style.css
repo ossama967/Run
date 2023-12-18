@@ -68,13 +68,16 @@ nav {
     display: none;
     top: 100%;
 }
-/* nav-toggle*/
+
+/* Nav toggle */
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
