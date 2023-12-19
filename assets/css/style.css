@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header */
@@ -37,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -85,10 +85,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero style section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
 /* Footer */
@@ -99,14 +105,16 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 /* Media query tablets and larger than 768pxs*/
-@media screen and (min-width: 768px)
- {
+@media screen and (min-width: 768px) {
+
     /*heading*/
     nav {
         display: block;
@@ -114,30 +122,35 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
+
     #menu {
         display: flex;
-          }
+    }
+
     #menu li {
         padding-left: 1rem;
-            }
+    }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /* pushing main content down on larger screen to be visible*/
     main {
         margin-top: 79px;
     }
 }
+
 /* Media query for labtops and desktops and larger than 992pxs*/
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
