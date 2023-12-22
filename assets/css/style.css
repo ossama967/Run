@@ -26,7 +26,10 @@ h3 {
     letter-spacing: 2px;
     color: #252525;
 }
-
+/*hidden items but shown in search engine*/
+.hidden-heading {
+    display: none;
+}
 /* Header */
 header {
     background-color: #ffffff;
